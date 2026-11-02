@@ -1,0 +1,56 @@
+
+# ==========================================
+# ScavengerHunt Configuration
+# ==========================================
+
+# Event Settings
+hunt:
+  duration-minutes: 30
+  objective-count: 15
+  difficulty: NORMAL
+
+# ==========================================
+# Team Settings
+# ==========================================
+
+teams:
+  player-choice-enabled: true
+  maximum-team-size: 5
+
+# ==========================================
+# World Generation
+# ==========================================
+
+world:
+  # Dedicated scavenger hunt world
+  name: scavenger_hunt
+
+  # Enable automatic world generation
+  generate-new-world: true
+
+  # World border size in blocks
+  # Available: 1000, 2000, 3000, 5000
+  # Can also be changed through the staff GUI
+  size: 2000
+
+  # World preparation status
+  # Managed automatically by the plugin
+  preparation-status: NOT_STARTED
+
+# ==========================================
+# Messages
+# ==========================================
+
+messages:
+  prefix: "&6&lScavenger Hunt &8» &r"
+
+event:
+  world: scavenger_hunt
+
+return-spawn:
+  world:
+  x:
+  y:
+  z:
+  yaw:
+  pitch:
