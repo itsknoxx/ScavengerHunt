@@ -142,8 +142,6 @@ Use Birdflop to generate RGB color combinations (https://birdflop.com/resources/
 
 ScavengerHunt has protective checks in place for world ownership, inventory backups and event transitions.
 
-Always backup your server and player data prior to upgrading the plugin or regenerating an event world.
-
 Don't manually delete your inventory backups or your world recovery files whilst an event is in progress.
 ---
 ## 🍯 Nectar Studios
