@@ -1,0 +1,22 @@
+
+name: ScavengerHunt
+version: 1.0.0
+main: com.knox.scavengerhunt.ScavengerHunt
+api-version: '26.2'
+author: itssknox
+description: Custom team-based scavenger hunt plugin
+
+softdepend:
+  - Chunky
+
+commands:
+  hunt:
+    description: Opens the Scavenger Hunt system
+    usage: /hunt
+    aliases:
+      - scavengerhunt
+
+permissions:
+  scavengerhunt.admin:
+    description: Allows staff to manage scavenger hunts
+    default: op
